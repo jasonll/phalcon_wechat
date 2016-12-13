@@ -1,0 +1,17 @@
+{
+	"name": "jasonll/phalcon_wechat",
+	"description": "phalcon easy_wechat",
+	"keywords": ["framework", "phalcon", "wechat"],
+	"license": "MIT",
+	"type": "project",
+    "require": {
+        "phalcon/incubator": "^2.0",
+		"overtrue/wechat": "~3.1",
+		"aferrandini/phpqrcode": "1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
